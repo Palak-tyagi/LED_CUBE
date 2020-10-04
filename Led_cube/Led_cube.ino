@@ -1,0 +1,417 @@
+int column1 = 1;
+int column2 = 2;
+int column3 = 3;
+int column4 = 4;
+int column5 = 5;
+int column6 = 6;
+int column7 = 7;
+int column8 = 8; 
+int column9 = 9;
+int npn13 = 13;
+int npn12 = 12;
+int npn11 = 11;
+int time = 2000;
+long ran;
+  
+void setup() {
+  pinMode (column1, OUTPUT);
+  pinMode (column2, OUTPUT);
+  pinMode (column3, OUTPUT);
+  pinMode (column4, OUTPUT);
+  pinMode (column5, OUTPUT);
+  pinMode (column6, OUTPUT);
+  pinMode (column7, OUTPUT);
+  pinMode (column8, OUTPUT);
+  pinMode (column9, OUTPUT);
+  pinMode (npn13, OUTPUT);  
+  pinMode (npn12, OUTPUT);
+  pinMode (npn11, OUTPUT);
+}
+
+void loop (){
+  //FIRST TYPE
+  digitalWrite(column1, LOW);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, LOW);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, LOW);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, LOW);
+  digitalWrite(npn13, HIGH);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+
+  digitalWrite(column1, LOW);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, LOW);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, LOW);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, LOW);
+  digitalWrite(npn13, HIGH);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, LOW);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, LOW);
+  digitalWrite(npn13, HIGH);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, HIGH);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, HIGH);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2 ,HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, HIGH);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, HIGH);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, HIGH);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, HIGH);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, HIGH);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, HIGH);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, HIGH);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, HIGH);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+
+
+  //SECOND TYPE
+  digitalWrite(column1, LOW);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, LOW);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, LOW);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, LOW);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+
+  digitalWrite(column1, LOW);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, LOW);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, LOW);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, LOW);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, LOW);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, LOW);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2 ,HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, HIGH);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, HIGH);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, HIGH);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, HIGH);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, HIGH);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  
+  
+  //THIRD TYPE 
+  digitalWrite(column1, LOW);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, LOW);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, LOW);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, LOW);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, LOW);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+
+  digitalWrite(column1, LOW);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, LOW);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, LOW);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, LOW);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, LOW);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, LOW);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, LOW);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, LOW);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, LOW);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, LOW);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, LOW);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, LOW);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2 ,HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, LOW);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, LOW);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, LOW);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, LOW);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, HIGH);
+  digitalWrite(column5, LOW);
+  digitalWrite(column6, HIGH);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, LOW);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+  digitalWrite(column1, HIGH);
+  digitalWrite(column2, HIGH);
+  digitalWrite(column3, HIGH);
+  digitalWrite(column4, HIGH);
+  digitalWrite(column5, HIGH);
+  digitalWrite(column6, HIGH);
+  digitalWrite(column7, HIGH);
+  digitalWrite(column8, HIGH);
+  digitalWrite(column9, HIGH);
+  digitalWrite(npn13, LOW);
+  digitalWrite(npn12, LOW);
+  digitalWrite(npn11, HIGH);
+  delay (time);
+  
+}
+      
